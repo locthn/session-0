@@ -1,5 +1,5 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-1,Verify Successful Purchase from Category Apple on the Product Page,Navigate to the home page and select the Apple category. Proceed to the hot new products and make a purchase. Verify the items in the shopping cart.,"step 1: Navigate to Page home
+1,Verify Successful Order Placement from Apple Category,Navigate to the home page and select the Apple category. Proceed to purchase a product and place an order. Verify the contents of the cart after placing the order.,"step 1: Navigate to Page home
 step 2: At Page home, hover on li object
 step 3: At Page home, click on hyperlink apple > navigate to Page category apple
 step 4: At Page category apple, click on hyperlink hot new > navigate to Page product
@@ -10,21 +10,21 @@ step 8: At Page product, click on hyperlink place an order > navigate to Page ca
 step 9: At Page cart, click on button
 step 10: At Page cart, click on button remove
 step 11: Add visual checkpoint at Page cart",High
-2,Verify Category Phone on the Product Page,Navigate to the home page and select the phone category. Verify the displayed products in the phone category.,"step 1: Navigate to Page home
+2,Verify Phone Category Page,Navigate to the home page and select the phone category. Verify the displayed content and layout of the phone category page.,"step 1: Navigate to Page home
 step 2: At Page home, hover on li object
 step 3: At Page home, click on hyperlink phone > navigate to Page category phone
 step 4: At Page category phone, click on hyperlink by title
 step 5: At Page category phone, click on hyperlink by title
 step 6: At Page category phone, click on svg object
 step 7: Add visual checkpoint at Page category phone",High
-3,Verify Category Accessories on the Product Page,Navigate to the home page and select the accessories category. Verify the displayed products in the accessories category.,"step 1: Navigate to Page home
+3,Verify Accessories Category Page,Navigate to the home page and select the accessories category. Verify the displayed content and layout of the accessories category page.,"step 1: Navigate to Page home
 step 2: At Page home, hover on li object
 step 3: At Page home, click on hyperlink accessories > navigate to Page category accessories
 step 4: At Page category accessories, click on hyperlink by price
 step 5: At Page category accessories, click on hyperlink by price
 step 6: At Page category accessories, click on svg object
 step 7: Add visual checkpoint at Page category accessories",High
-4,Verify Category Samsung on the Product Page,Navigate to the home page and select the Samsung category. Verify the displayed products in the Samsung category.,"step 1: Navigate to Page home
+4,Verify Samsung Category Page,Navigate to the home page and select the Samsung category. Purchase a product and verify the displayed content and layout of the Samsung category page.,"step 1: Navigate to Page home
 step 2: At Page home, hover on li object
 step 3: At Page home, click on hyperlink samsung > navigate to Page category samsung
 step 4: At Page category samsung, click on hyperlink by title
@@ -33,13 +33,13 @@ step 6: At Page category samsung, click on label object
 step 7: At Page category samsung, click on label object
 step 8: At Page category samsung, click on button buy
 step 9: Add visual checkpoint at Page category samsung",High
-5,Verify Product from Category Chekhly Na Iphone on the Product Page,Navigate to the home page and select the Apple category for iPhone cases. Proceed to the sale products and make a purchase. Verify the product details.,"step 1: Navigate to Page home
+5,Verify Apple Category Chekhly Na Iphone Sale Product Page,Navigate to the home page and select the Apple category. Proceed to purchase a product on sale and verify the displayed content and layout of the product page.,"step 1: Navigate to Page home
 step 2: At Page home, hover on li object
 step 3: At Page home, click on hyperlink apple > navigate to Page category chekhly-na-iphone
 step 4: At Page category chekhly-na-iphone, click on hyperlink sale > navigate to Page product
 step 5: At Page product, click on button buy
 step 6: Add visual checkpoint at Page product",High
-6,Verify Category Chekhly Na Iphone on the Product Page with Price Filter,Navigate to the home page and select the Apple category for iPhone cases. Set the price range and view the products. Make a purchase and verify the selected iPhone cases.,"step 1: Navigate to Page home
+6,Verify Apple Category Chekhly Na Iphone Page with Filters Applied,Navigate to the home page and select the Apple category. Apply filters and proceed to purchase a product. Verify the displayed content and layout of the category page with applied filters.,"step 1: Navigate to Page home
 step 2: At Page home, hover on li object
 step 3: At Page home, click on hyperlink apple > navigate to Page category chekhly-na-iphone
 step 4: At Page category chekhly-na-iphone, input on input price min
@@ -49,7 +49,7 @@ step 7: At Page category chekhly-na-iphone, click on svg object
 step 8: At Page category chekhly-na-iphone, click on label object
 step 9: At Page category chekhly-na-iphone, click on button buy
 step 10: Add visual checkpoint at Page category chekhly-na-iphone",Medium
-7,Verify Successful Checkout and Order Completion,Navigate through the checkout process from adding items to the cart to completing the order. Verify the thank you page after successful order completion.,"step 1: Navigate to Page home
+7,Verify Successful Order Placement and Thank You Page,"Navigate through the checkout process, including shipping and payment information. Complete the order and verify the displayed content and layout of the thank you page.","step 1: Navigate to Page home
 step 2: At Page home, hover on li object
 step 3: At Page home, click on hyperlink apple > navigate to Page category apple
 step 4: At Page category apple, click on hyperlink hot new > navigate to Page product
@@ -74,7 +74,7 @@ step 22: At Page checkout shipping-address, click on button continue to payment 
 step 23: At Page checkout payment, click on input payment method id
 step 24: At Page checkout payment, click on button complete order > navigate to Page thank-you
 step 25: Add visual checkpoint at Page thank-you",Medium
-8,Verify Shipping Address Details during Checkout,Navigate through the checkout process and verify the shipping address details before proceeding with the order.,"step 1: Navigate to Page home
+8,Verify Checkout Shipping Address Page,Navigate through the checkout process and verify the displayed content and layout of the shipping address page.,"step 1: Navigate to Page home
 step 2: At Page home, click on hyperlink object > navigate to Page product
 step 3: At Page product, click on button buy
 step 4: At Page product, click on hyperlink place an order > navigate to Page cart

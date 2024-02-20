@@ -1,7 +1,7 @@
-import internal.GlobalVariable as GlobalVariable
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.model.FailureHandling
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as GlobalVariable
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
 'Initialize test session: Open browser and set view port'
 
@@ -87,7 +87,7 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_category_samsung/button_bu
 
 'Step 9: Add visual checkpoint at Page category samsung'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC4-Verify Category Samsung on the Product Page_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC4-Verify Samsung Category Page_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

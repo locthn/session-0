@@ -1,7 +1,7 @@
-import internal.GlobalVariable as GlobalVariable
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.model.FailureHandling
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as GlobalVariable
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
 'Initialize test session: Open browser and set view port'
 
@@ -29,11 +29,11 @@ WebUI.mouseOver(findTestObject('AI-Generated/Page_home/li_object'))
 
 WebUI.takeScreenshot()
 
-WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_home/hyperlink_apple'), 20, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_home/hyperlink_apple_1'), 20, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/hyperlink_apple'))
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/hyperlink_apple_1'))
 
 'Step 4: At Page category chekhly-na-iphone, click on hyperlink sale > navigate to Page product'
 
@@ -49,15 +49,15 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_category_chekhly-na-iphone
 
 WebUI.takeScreenshot()
 
-WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_product/button_buy'), 20, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_product/button_buy_1'), 20, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/product/.*?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_product/button_buy'))
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_product/button_buy_1'))
 
 'Step 6: Add visual checkpoint at Page product'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC5-Verify Product from Category Chekhly Na Iphone on the Product Page_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC5-Verify Apple Category Chekhly Na Iphone Sale Product Page_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

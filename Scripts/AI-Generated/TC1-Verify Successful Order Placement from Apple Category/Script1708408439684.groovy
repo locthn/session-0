@@ -1,7 +1,7 @@
-import internal.GlobalVariable as GlobalVariable
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.model.FailureHandling
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as GlobalVariable
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
 'Initialize test session: Open browser and set view port'
 
@@ -29,11 +29,11 @@ WebUI.mouseOver(findTestObject('AI-Generated/Page_home/li_object'))
 
 WebUI.takeScreenshot()
 
-WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_home/hyperlink_apple_1'), 20, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_home/hyperlink_apple'), 20, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/hyperlink_apple_1'))
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/hyperlink_apple'))
 
 'Step 4: At Page category apple, click on hyperlink hot new > navigate to Page product'
 
@@ -69,11 +69,11 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_product/label_object_1'))
 
 WebUI.takeScreenshot()
 
-WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_product/button_buy_1'), 20, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_product/button_buy'), 20, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/product/.*?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_product/button_buy_1'))
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_product/button_buy'))
 
 'Step 8: At Page product, click on hyperlink place an order > navigate to Page cart'
 
@@ -107,7 +107,7 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_cart/button_remove'))
 
 'Step 11: Add visual checkpoint at Page cart'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Successful Purchase from Category Apple on the Product Page_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Successful Order Placement from Apple Category_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

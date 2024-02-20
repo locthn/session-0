@@ -1,7 +1,7 @@
-import internal.GlobalVariable as GlobalVariable
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.model.FailureHandling
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as GlobalVariable
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
 'Initialize test session: Open browser and set view port'
 
@@ -29,11 +29,11 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/hyperlink_object'))
 
 WebUI.takeScreenshot()
 
-WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_product/button_buy'), 20, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_product/button_buy_1'), 20, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/product/.*?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_product/button_buy'))
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_product/button_buy_1'))
 
 'Step 4: At Page product, click on hyperlink place an order > navigate to Page cart'
 
@@ -87,7 +87,7 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_checkout_info/button_conti
 
 'Step 9: Add visual checkpoint at Page checkout shipping-address'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC8-Verify Shipping Address Details during Checkout_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC8-Verify Checkout Shipping Address Page_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
