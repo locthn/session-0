@@ -1,0 +1,14 @@
+{
+    "steps": [
+        "step 1: Navigate to Page home",
+        "step 2: At Page home, hover on li object",
+        "step 3: At Page home, click on hyperlink apple > navigate to Page category chekhly-na-iphone",
+        "step 4: At Page category chekhly-na-iphone, input on input price min",
+        "step 5: At Page category chekhly-na-iphone, input on input price max",
+        "step 6: At Page category chekhly-na-iphone, click on button show 6",
+        "step 7: At Page category chekhly-na-iphone, click on svg object",
+        "step 8: At Page category chekhly-na-iphone, click on label object",
+        "step 9: At Page category chekhly-na-iphone, click on button buy",
+        "step 10: Add visual checkpoint at Page category chekhly-na-iphone"
+    ]
+}

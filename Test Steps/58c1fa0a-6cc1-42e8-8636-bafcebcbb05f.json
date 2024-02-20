@@ -1,0 +1,10 @@
+{
+    "steps": [
+        "step 1: Navigate to Page home",
+        "step 2: At Page home, hover on li object",
+        "step 3: At Page home, click on hyperlink apple > navigate to Page category chekhly-na-iphone",
+        "step 4: At Page category chekhly-na-iphone, click on hyperlink sale > navigate to Page product",
+        "step 5: At Page product, click on button buy",
+        "step 6: Add visual checkpoint at Page product"
+    ]
+}

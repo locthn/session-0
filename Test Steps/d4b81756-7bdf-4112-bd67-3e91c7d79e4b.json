@@ -1,0 +1,15 @@
+{
+    "steps": [
+        "step 1: Navigate to Page home",
+        "step 2: At Page home, hover on li object",
+        "step 3: At Page home, click on hyperlink apple > navigate to Page category apple",
+        "step 4: At Page category apple, click on hyperlink hot new > navigate to Page product",
+        "step 5: At Page product, click on label object",
+        "step 6: At Page product, click on label object",
+        "step 7: At Page product, click on button buy",
+        "step 8: At Page product, click on hyperlink place an order > navigate to Page cart",
+        "step 9: At Page cart, click on button",
+        "step 10: At Page cart, click on button remove",
+        "step 11: Add visual checkpoint at Page cart"
+    ]
+}

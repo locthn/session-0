@@ -1,0 +1,11 @@
+{
+    "steps": [
+        "step 1: Navigate to Page home",
+        "step 2: At Page home, hover on li object",
+        "step 3: At Page home, click on hyperlink phone > navigate to Page category phone",
+        "step 4: At Page category phone, click on hyperlink by title",
+        "step 5: At Page category phone, click on hyperlink by title",
+        "step 6: At Page category phone, click on svg object",
+        "step 7: Add visual checkpoint at Page category phone"
+    ]
+}
